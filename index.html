@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Country | Search</title>
+</head>
+
+<body class="d-flex column gap-20">
+    <div class="d-flex column gap-20">
+        <div class="header d-flex justify-btw m-auto">
+            <h1 class="d-flex center">Country Search <span class="fa fa-search"></span></h1>
+            <div class="d-flex align-center" ><i class="fa fa-bars"></i></div>
+        </div>
+        <form action="" class="d-flex center m-auto" id="searchForm">
+            <input type="search" name="search" id="search" placeholder="search">
+            <button type="submit" id="searchBtn"><i class="fa fa-search"></i></button>
+        </form>
+        <div class="d-flex center">
+            <p>you searched for <span class="" id="searchString"></span></p>
+        </div>
+    </div>
+    <div class="results d-flex column gap-20" id="resultsContainer">
+        
+    </div>
+
+<script src="script.js"></script>
+<noscript>
+    You need to enable Javascript
+</noscript>
+</body>
+</html>

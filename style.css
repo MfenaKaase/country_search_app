@@ -1,0 +1,94 @@
+*, *::after, *:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232323;
+    color: #fefefe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center, .justify-center {
+    justify-content: center;
+}
+
+.center, .align-center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+form {
+    background-color: #fefefe;
+    width: 80%;
+    padding: 2px 5px;
+    border-radius: .5em;
+}
+
+.header {
+    width: 80%;
+}
+
+form input, form button {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+
+form input {
+    width: 90%;
+    font-size: inherit;
+    font-family: inherit;
+    padding: auto;
+}
+
+form button {
+    width: 30%;
+    cursor: pointer;
+    border-radius: .5em;
+    background-color: rgb(4, 175, 175, .5);
+}
+
+form button:hover {
+    background-color: rgb(4, 175, 175);
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.result {
+    width: 80%;
+    margin: auto;
+
+}
+
+.result {
+    background-color: #fefefe;
+    border-radius: .5em;
+    padding: 5px;
+    color: #232323;
+    cursor: pointer;
+}
+
+.img-cont img {
+    border-radius: .5em;
+    width: 100px;
+}
+
+.justify-btw {
+    justify-content: space-between;
+}
+
